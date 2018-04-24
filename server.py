@@ -31,7 +31,7 @@ def beginPage(b):
                            w=w[bn:bn + page_size],
                            page_number=bn,
                            page_size=page_size,l=l
-                           )
+                           ,lota=lota)
 
 
 @app.route('/continent/<a>')
@@ -41,7 +41,8 @@ def continentPage(a):
         'continent.html',
         length_of_cl=len(cl),
         cl=cl,
-        a=a
+        a=a,
+        lota=lota
     )
 
 @app.route('/createCountry/')

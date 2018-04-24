@@ -13,6 +13,26 @@ img.big {
     top: 1ex;
 }
 
+.country div{
+    display: inline-block;
+    border: solid thin grey;
+    width: 50px;
+}
+ul#sort a:link{
+    background-color: #3366BB;
+    color: white;
+    padding: 10px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    list-style-type: none;
+}
+ul#sort a:hover{
+    background-color: green;
+}
+.nav_button{
+    
+}
 .properties div div{
 	display:inline-block;
 }
