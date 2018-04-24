@@ -5,7 +5,12 @@
 </head>
 	<body>
 		<h1>World Factbook</h1>
-		<div>There are {{l}} countries in in the world.</div>
+		<div>There are {{l}} countries in the world.</div>
+		<div>
+			{% for c in lota %}
+				<a href="/startWithAlphabetic/{{c}}">{{c}}</a>	
+			{% endfor %}
+		</div>
 		<ul>
 			{% for c in w %}
 			<li><a href='/countryByName/{{c.name}}'>
@@ -13,6 +18,7 @@
 			 {{c.name}}</a></li>
 			{% endfor %}
 		</ul>
+	</body>
 		<div class='nav_button'>
 			<a href='/begin/{{page_number-page_size}}'>Previous Page</a>
 		</div>
