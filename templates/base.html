@@ -1,0 +1,23 @@
+<!doctype html>
+<html>
+<head>
+	<link rel='stylesheet' href='/static/style.css'>
+</head>
+<body>
+
+	<div>
+		<h1 align="center">World Fact Book</h1>
+	<ul id="sort">
+		{% for c in lota %}
+		<a href="/sortedList/{{c}}"><li>{{c}}</li></a>	
+		{% endfor %}
+	</ul>
+	</div>
+
+	</div>
+
+	{% block content %}
+	{% endblock %}
+	<div>
+	</body>
+</html>
