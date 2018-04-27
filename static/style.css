@@ -13,26 +13,6 @@ img.big {
     top: 1ex;
 }
 
-.country div{
-    display: inline-block;
-    border: solid thin grey;
-    width: 50px;
-}
-ul#sort a:link{
-    background-color: #3366BB;
-    color: white;
-    padding: 10px 10px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    list-style-type: none;
-}
-ul#sort a:hover{
-    background-color: green;
-}
-.nav_button{
-    
-}
 .properties div div{
 	display:inline-block;
 }
@@ -44,4 +24,27 @@ ul#sort a:hover{
 }
 a{
 	text-decoration: none;
+    line-height: 5px;
+}
+.nav_button{
+    border:solid gray thin;
+    bottom: auto;
+    padding: 1ex;
+    margin: 1ex;
+    border-radius: 0.5ex;
+    text-align: center;
+    display: inline-block;
+    padding: 6px;
+    }
+ul#sort a:link{
+    background-color:pink;
+    color: yellow;
+    padding: 7px 7px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    list-style-type: none;
+}
+ul#sort a:hover{
+    background-color: red;
 }
